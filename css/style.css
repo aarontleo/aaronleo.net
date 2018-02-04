@@ -1,0 +1,160 @@
+/* LOOK UP RESET STYLING!! */
+/* Youtube.com --> How to create a responsive website using HTML and CSS | mmtuts | 59mins in
+/* Global Styling */
+
+/*
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Paytone One', sans-serif;
+font-family: 'Ultra', serif;
+font-family: 'Assistant', sans-serif;
+*/
+
+*{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body{
+  background-color: #030909; /* Eventually make it black: #030909; */
+}
+
+header{
+  background-color: #030909; /* Eventually make it black: #030909; */
+  width: 100%;
+  height: 100%;
+}
+
+header .header-brand{
+  /*font-family: Arial;*/
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  color: #ffffff; /* Eventually make it white: #ffffff; */
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0px;
+}
+
+header nav ul{
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  width: fit-content;
+}
+
+header nav ul li{
+  display: inline-block;
+  float: left;
+  padding: 0 6px;
+
+}
+
+header nav ul li a{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+}
+
+.index-banner{
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('../img/header_photo_2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.vertical-center{
+  display: table-cell;
+  vertical-align: center;
+}
+
+.index-banner h2{
+  margin: 22px;
+  font-family: 'Ultra', serif;
+  font-size: 42px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: center;
+}
+
+.index-banner h1{
+  font-family: 'Assistant', sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.index-organizations-header{
+  margin: 60px 0 0;
+  font-size: 30px;
+  color: #ffffff;
+  background-color: #030909;
+  text-align: center;
+}
+
+.index-organizations div{
+  margin: 10px 10px 0;
+  width: calc(100% - 20px);
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.index-organizations div h3{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 22px;
+  line-height: 100px;
+  color: #030909;
+  text-align: center;
+}
+
+.index-organizations h2{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+  color: #ffffff;
+  text-align: center;
+}
+
+footer{
+  /*margin: 50px 10px 10px 10px;*/
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  width: calc(100% - 40px);
+  background-color: #030909;
+  overflow: hidden;
+}
+
+footer p{
+  margin: 10px;
+  font-family: 'Assistant', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-icon-bar{
+  margin: 5px;
+  width: calc(100% - 10px);
+  height: 33px;
+  background-color: #ffffff;
+  text-align: center;
+}
+.footer-icon-group{
+  margin: auto;
+  height: 33px;
+}
+
+.footer-icon-bar div img{
+  margin: 5px 5px;
+  width: 23px;
+}

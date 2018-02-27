@@ -2,6 +2,7 @@
 CSS is written for screen sizes below 1000px
 Media Queries are used to modify the layout after a screen size of 1000px
 */
+
 *{
   text-decoration: none;
   list-style-type: none;

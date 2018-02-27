@@ -1,10 +1,7 @@
 /*
-font-family: 'Rubik Mono One', sans-serif;
-font-family: 'Paytone One', sans-serif;
-font-family: 'Ultra', serif;
-font-family: 'Assistant', sans-serif;
+CSS is written for screen sizes below 1000px
+Media Queries are used to modify the layout after a screen size of 1000px
 */
-
 *{
   text-decoration: none;
   list-style-type: none;
@@ -102,19 +99,20 @@ header nav ul li a{
 
 .index-banner h2{
   margin: 22px;
-  font-family: 'Ultra', serif;
-  font-size: 42px;
-  font-weight: 300;
+  font-family: 'Oswald', sans-serif;
+  /*font-family: 'Anton', sans-serif;*/
+  line-height: 45px;
+  font-size: 58px;
   color: #ffffff;
   text-align: center;
 }
 
 .index-banner h1{
-  font-family: 'Assistant', sans-serif;
-  font-size: 16px;
+font-family: 'Paytone One', sans-serif;
+  font-size: 20px;
   font-style: italic;
-  font-weight: 900;
-  line-height: 25px;
+  line-height: 35px;
+  font-weight: 100;
   color: #ffffff;
   text-align: center;
 }
@@ -142,6 +140,10 @@ header nav ul li a{
   text-align: center;
 }
 
+.index-organizations div h3 a{
+  color: #000000;
+}
+
 .index-organizations h2{
   font-family: 'Paytone One', sans-serif;
   font-size: 22px;
@@ -155,6 +157,10 @@ header nav ul li a{
   .wrapper{
     width: 500px;
     margin: 0 auto;
+  }
+
+  .index-banner h1{
+    line-height: 55px;
   }
 }
 
@@ -191,7 +197,7 @@ footer{
 
 footer p{
   margin: 10px;
-  font-family: 'Assistant', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 500;
   font-size: 14px;
   color: #ffffff;
